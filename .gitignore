@@ -1,0 +1,12 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+prisma/.env
+
+# SQLite database files
+prisma/*.db
+
+# Prisma migrations (optional, see note above)
+prisma/migrations/

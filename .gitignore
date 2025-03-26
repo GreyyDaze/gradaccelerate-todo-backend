@@ -10,3 +10,4 @@ prisma/*.db
 
 # Prisma migrations (optional, see note above)
 prisma/migrations/
+.qodo

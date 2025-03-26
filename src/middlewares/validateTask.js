@@ -6,7 +6,7 @@ const validateTask = (req, res, next) => {
   let errors = [];
 
   // 🔹 Validate ID in params (for PUT request)
-  if (method === "PUT") {
+  if (method === "PUT" || method === "DELETE") {
     if (id && (!/^\d+$/.test(id) || parseInt(id) <= 0)) {
       errors.push("Invalid task ID. Must be a positive integer.");
     }
